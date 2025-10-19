@@ -12,4 +12,12 @@ console.log (" a*b =",a*b)
 console.log (" a++ =",++a)
 console.log (" b-- =",++b)
 
+console.log (`**********************`);
+let FullName = window.prompt("Hãy nhập tên của bạn");
+let BirthYear = window.prompt("Hãy nhập năm sinh của bạn yyyy:");
+let today = new Date();
+let year = today.getFullYear();
+let age = year - BirthYear;
+console.log (`Chào bạn ${FullName}, bạn năm nay ${age} tuổi`); //Sử dụng template string
+console.log (`**********************`);
 
