@@ -19,12 +19,14 @@ console.log(sv1)
 console.log(sv2)
 
 // Add them gioi tinh
+console.log("Add them gioi tinh")
 sv1.gioitinh = "Nam";
 sv2.gioitinh = "Nu";
 console.log(sv1)
 console.log(sv2)
 
 // remove address
+console.log("remove address")
 delete sv1.address
 delete sv2.address
 console.log(sv1)
