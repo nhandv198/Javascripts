@@ -9,5 +9,5 @@ element1.addEventListener("click", function () {
 
 element2.addEventListener("click", function () {
     // alert("Change old text")
-    text.innerHTML = "<h1>Video 52</h1>"
+    text.innerHTML = "<h3>Video 52</h3>"
 })
